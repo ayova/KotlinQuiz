@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Original colors    -->
+<!--    <color name="colorPrimary">#6200EE</color>-->
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+<!--    <color name="colorAccent">#03DAC5</color>-->
+
+    <color name="colorPrimary">#242B4C</color>
+    <color name="colorPrimaryDark">#111B31</color>
+    <color name="colorAccent">#007DF3</color>
+    <color name="progressBarBack">#CBFAFAFA</color>
+    <color name="colorCorrect">#D700FF40</color>
+    <color name="colorWrong">#CBDF0D0D</color>
+    <color name="colorTransparent">#00DF0D0D</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/login_imageview_logo"
+        android:src="@drawable/kotlinquiz"
+        android:layout_margin="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Nombre de usuario"
+        app:hintTextColor="@android:color/white"
+        app:boxStrokeColor="#00ffffff"
+        app:boxStrokeWidth="0dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_et_username"
+            android:background="@drawable/login_field_style"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empezar"
+        android:padding="20dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="30dp"
+        android:backgroundTint="@color/custom_button_style"/>
+
+</LinearLayout>
